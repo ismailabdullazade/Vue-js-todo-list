@@ -49,6 +49,7 @@ onMounted(() => {
 	<main class="app">
 		
 		<section class="greeting">
+      <h2>This is Beta version</h2>
 			<h2 class="title">
 				What's up, <input type="text" id="name" placeholder="Name here" v-model="name">
 			</h2>
@@ -77,7 +78,7 @@ onMounted(() => {
 							value="business"
 							v-model="input_category" />
 						<span class="bubble business"></span>
-						<div>Business goal</div>
+						<div>Business </div>
 					</label>
 
 					<label>
@@ -88,7 +89,7 @@ onMounted(() => {
 							value="personal"
 							v-model="input_category" />
 						<span class="bubble personal"></span>
-						<div>Personal goal</div>
+						<div>Personal </div>
 					</label>
 
 				</div>
